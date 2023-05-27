@@ -1,3 +1,7 @@
+# ReflectanceRCWA
+
+The repo is in [ScatteringM](https://github.com/Hoang-LamPham/ScatteringM/) and the notebook can be found in [RCWA](https://github.com/Hoang-LamPham/ScatteringM/tree/main/1RCWA)
+
 We present an efficient RCWA simulation of 3D multilayers with bottom homogeneous layers.
 
 In practical applications of biosensing, optical diffuser, solar cells, photo-dectectors, nanostructures are composed of top gratings and bottom homogeneous layers 
