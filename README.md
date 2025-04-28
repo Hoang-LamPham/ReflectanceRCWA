@@ -17,7 +17,7 @@ We applied two techniques: vector-based computation and bottom-up construction. 
 
 ## Simple, easy to use
 #### Simulation
-The main part of the simulation requires only  1 line in a loop of wavelengths. Then, the optical responses are easily calculated from the global S-matrix.   
+The main part of the simulation requires only  2 lines in a loop of wavelengths. Then, the optical responses are easily calculated from the global S-matrix.   
 
 Call the function:
 ```python
@@ -25,8 +25,7 @@ sim=rcwa()
 ```
 Main part:
 ```python
-for wth in range(len(wavelength_range)):    
-    #Scattering matrix    
+for wth in range(len(wavelength_range)):       
     S_layer=sim.S_layer(Structure,idx=wth)  
     S_global=sim.S_System(S_layer)
  ```
