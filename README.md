@@ -1,7 +1,7 @@
-## Features
-Fast Rigorous Coupled-Wave Analysis (RCWA) for nanostructure simulations
+## RCWA
+Rigorous Coupled-Wave Analysis (RCWA) for nanostructure simulations
 * Fast simulations for multilayers 
-* Simple, easy to use: we need only 2 lines for the main part of the simulation
+* Simple, easy to use: only 2 lines are needed for the main part of the simulation
 
 
 ## Multilayer simulations:
@@ -30,7 +30,7 @@ for wth in range(len(wavelength_range)):
     S_layer=sim.S_layer(Structure,idx=wth)  
     S_global=sim.S_System(S_layer)
  ```
-The notebook examples are located in [Example](Example). Two versions: simulation and faster simulation can be found in the notebook examples. The faster simulation utilizes advanced techniques: vector-based computation and bottom-up construction to simulate the required elements of the global S-matrix, as demonstrated in [Example](Example)
+The notebook examples are located in [Example](Example). Two versions: simulation and faster simulation can be found in the notebook examples. The faster simulation utilizes advanced techniques: vector-based computation and bottom-up construction to simulate the required elements of the global S-matrix.
 
 ## Contact
 The RCWA simulation is still in development, so please expect some bugs. If you encounter any issues, feel free to contact me: phamhoanglam.fr@gmail.com
